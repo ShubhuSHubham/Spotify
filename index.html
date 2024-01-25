@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="icon" type="image/x-icon" href="spotify favicon.ico">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="containe flex bg-black">
+        <div class="left">
+            <div class="close">
+                <svg width="40px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18" />
+                    <line x1="6" y1="6" x2="18" y2="18" />
+                </svg>
+
+            </div>
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="logo"><img class="spotify-logo invert" src="spotify logo.png" alt="spotify logo"></div>
+                <ul>
+                    <li><img class="invert " src="home (1).png" alt="home">Home</li>
+
+                    <li><img class="invert " src="search-interface-symbol.png" alt="search ">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey rounded m-1 p-1">
+                <div class="heading">
+                    <svg class="invert" data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24"
+                        class="Svg-sc-ytk21e-0 iYxpxA">
+                        <path
+                            d="M3 22a1 1 0 0 1-1-1V3a1 1 0 0 1 2 0v18a1 1 0 0 1-1 1zM15.5 2.134A1 1 0 0 0 14 3v18a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V6.464a1 1 0 0 0-.5-.866l-6-3.464zM9 2a1 1 0 0 0-1 1v18a1 1 0 1 0 2 0V3a1 1 0 0 0-1-1z">
+                        </path>
+                    </svg>
+                    <path
+                        d="M3 22a1 1 0 0 1-1-1V3a1 1 0 0 1 2 0v18a1 1 0 0 1-1 1zM15.5 2.134A1 1 0 0 0 14 3v18a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V6.464a1 1 0 0 0-.5-.866l-6-3.464zM9 2a1 1 0 0 0-1 1v18a1 1 0 1 0 2 0V3a1 1 0 0 0-1-1z">
+                    </path>
+                    <h2>Your Library</h2>
+
+                </div>
+                <div class="songlist">
+                    <ul>
+                    </ul>
+                </div>
+
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/privacy/"><span>Privacy Center</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="right bg-grey rounded">
+            <div class="header">
+
+                <div class="nav">
+                    <div class="hamburgericon">
+                        <svg class="invert hamburger" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4 5L20 5" stroke="#141B34" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M4 12L20 12" stroke="#141B34" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M4 19L20 19" stroke="#141B34" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="#ffffff"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="#ffffff"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="buttons">
+                    <button class="login">Log in</button>
+                    <button class="signup">Sign up</button>
+                </div>
+            </div>
+
+            <div class="spotify-playlists">
+                <h1>Spotify Playlists</h1>
+                <div class="card-Container">
+                    <div data-folder="music" class="card">
+                        <div class="play">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                xmlns="http:// www.w3.org/2000/svg">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" fill="#000" stroke-width="1.5"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="/songs/music/singer.jpg" alt="Arijit Singh">
+                        <h2>Arijit Singh</h2>
+                        <p>Indian playback singer and musical composer</p>
+                    </div>
+
+                    <div data-folder="kishore_kumar" class="card">
+                        <div class="play">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                xmlns="http:// www.w3.org/2000/svg">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" fill="#000" stroke-width="1.5"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="/songs/kishore_kumar/singer.jpg" alt="Kishore Kumar">
+                        <h2>Kishore Kumar</h2>
+                        <p>Indian playback singer and musician</p>
+                    </div>
+
+                    <div data-folder="kumar_sanu" class="card">
+                        <div class="play">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                xmlns="http:// www.w3.org/2000/svg">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" fill="#000" stroke-width="1.5"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="/songs/kumar_sanu/singer.jpg" alt="Kumar Sanu">
+                        <h2>Kumar Sanu</h2>
+                        <p>Indian playback singer</p>
+                    </div>
+
+                    <div data-folder="udit_narayan" class="card">
+                        <div class="play">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                xmlns="http:// www.w3.org/2000/svg">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" fill="#000" stroke-width="1.5"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="/songs/udit_narayan/singer.jpg" alt="Udit Narayan">
+                        <h2>Udit Narayan</h2>
+                        <p>Indian playback singer</p>
+                    </div>
+
+                    <div data-folder="pritam" class="card">
+                        <div class="play">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                xmlns="http:// www.w3.org/2000/svg">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" fill="#000" stroke-width="1.5"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="/songs/pritam/singer.jpg" alt="Pritam">
+                        <h2>Pritam</h2>
+                        <p>Indian composer and musician</p>
+                    </div>
+
+                    <div data-folder="gulshan_kumar" class="card">
+                        <div class="play">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                xmlns="http:// www.w3.org/2000/svg">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" fill="#000" stroke-width="1.5"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="/songs/gulshan_kumar/singer.jpg" alt="Gulshan Kumar">
+                        <h2>Gulshan Kumar</h2>
+                        <p>Indian businessman and film producer</p>
+                    </div>
+
+                    <div data-folder="shaan" class="card">
+                        <div class="play">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                xmlns="http:// www.w3.org/2000/svg">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" fill="#000" stroke-width="1.5"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="/songs/shaan/singer.jpg" alt="Shaan">
+                        <h2>Shaan</h2>
+                        <p>Indian playback singer</p>
+                    </div>
+
+                    <div data-folder="shankar_mahadevan" class="card">
+                        <div class="play">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                xmlns="http:// www.w3.org/2000/svg">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" fill="#000" stroke-width="1.5"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="/songs/shankar_mahadevan/singer.jpg" alt="Shankar Mahadevan">
+                        <h2>Shankar Mahadevan</h2>
+                        <p>Indian singer and composer</p>
+                    </div>
+
+                    <div data-folder="shreya_ghoshal" class="card">
+                        <div class="play">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                xmlns="http:// www.w3.org/2000/svg">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" fill="#000" stroke-width="1.5"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="/songs/shreya_ghoshal/singer.jpg" alt="Shreya Ghoshal">
+                        <h2>Shreya Ghoshal</h2>
+                        <p>Indian singer</p>
+                    </div>
+
+                    <div data-folder="lata_mangeshkar" class="card">
+                        <div class="play">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                xmlns="http:// www.w3.org/2000/svg">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" fill="#000" stroke-width="1.5"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="/songs/lata_mangeshkar/singer.jpg" alt="Lata Mangeshkar">
+                        <h2>Lata Mangeshkar</h2>
+                        <p>Indian playback singer</p>
+                    </div>
+
+
+                    <div data-folder="ar_rahman" class="card">
+                        <div class="play">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                xmlns="http:// www.w3.org/2000/svg">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" fill="#000" stroke-width="1.5"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="/songs/ar_rahman/singer.jpg" alt="A. R. Rahman">
+                        <h2>A. R. Rahman</h2>
+                        <p>Indian musical composer and record producer</p>
+                    </div>
+
+                    <div data-folder="asha_bhoshle" class="card">
+                        <div class="play">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                xmlns="http:// www.w3.org/2000/svg">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" fill="#000" stroke-width="1.5"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="/songs/asha_bhoshle/singer.jpg" alt="Asha Bhosle">
+                        <h2>Asha Bhosle</h2>
+                        <p>Indian playback singer and entrepreneur</p>
+                    </div>
+
+
+
+                    <div data-folder="jagjit_singh" class="card">
+                        <div class="play">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                xmlns="http:// www.w3.org/2000/svg">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" fill="#000" stroke-width="1.5"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="/songs/jagjit_singh/singer.jpg" alt="Jagjit Singh">
+                        <h2>Jagjit Singh</h2>
+                        <p>Indian composer and singer</p>
+                    </div>
+
+
+                    <div data-folder="KK" class="card">
+                        <div class="play">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                xmlns="http:// www.w3.org/2000/svg">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" fill="#000" stroke-width="1.5"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="/songs/KK/singer.jpg" alt=" KK">
+                        <h2>KK</h2>
+                        <p>Indian playback singer</p>
+                    </div>
+
+                    <div data-folder="sonu_nigam" class="card">
+                        <div class="play">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                xmlns="http:// www.w3.org/2000/svg">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" fill="#000" stroke-width="1.5"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="/songs/sonu_nigam/singer.jpg" alt="Sonu Nigam">
+                        <h2>Sonu Nigam</h2>
+                        <p>Indian playback singer and music director</p>
+                    </div>
+
+                </div>
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle">
+
+                        </div>
+                    </div>
+
+                    <div class="line">
+                        <div class="songinfo"></div>
+                        <div class="songbuttons">
+
+                            <svg id="previous" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8.06492 12.6258C8.31931 13.8374 9.67295 14.7077 12.3802 16.4481C15.3247 18.3411 16.797 19.2876 17.9895 18.9229C18.3934 18.7994 18.7654 18.5823 19.0777 18.2876C20 17.4178 20 15.6118 20 12C20 8.38816 20 6.58224 19.0777 5.71235C18.7654 5.41773 18.3934 5.20057 17.9895 5.07707C16.797 4.71243 15.3247 5.6589 12.3802 7.55186C9.67295 9.29233 8.31931 10.1626 8.06492 11.3742C7.97836 11.7865 7.97836 12.2135 8.06492 12.6258Z"
+                                    stroke="#141B34" stroke-width="1.5" stroke-linejoin="round" />
+                                <path d="M4 4L4 20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" />
+                            </svg>
+
+
+
+                            <svg id="play" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="10" stroke="#141B34" stroke-width="1.5" />
+                                <path
+                                    d="M15.4531 12.3948C15.3016 13.0215 14.5857 13.4644 13.1539 14.3502C11.7697 15.2064 11.0777 15.6346 10.5199 15.4625C10.2893 15.3913 10.0793 15.2562 9.90982 15.07C9.5 14.6198 9.5 13.7465 9.5 12C9.5 10.2535 9.5 9.38018 9.90982 8.92995C10.0793 8.74381 10.2893 8.60868 10.5199 8.53753C11.0777 8.36544 11.7697 8.79357 13.1539 9.64983C14.5857 10.5356 15.3016 10.9785 15.4531 11.6052C15.5156 11.8639 15.5156 12.1361 15.4531 12.3948Z"
+                                    stroke="#141B34" stroke-width="1.5" stroke-linejoin="round" />
+                            </svg>
+
+                            <svg id="next" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M15.9351 12.6258C15.6807 13.8374 14.327 14.7077 11.6198 16.4481C8.67528 18.3411 7.20303 19.2876 6.01052 18.9229C5.60662 18.7994 5.23463 18.5823 4.92227 18.2876C4 17.4178 4 15.6118 4 12C4 8.38816 4 6.58224 4.92227 5.71235C5.23463 5.41773 5.60662 5.20057 6.01052 5.07707C7.20304 4.71243 8.67528 5.6589 11.6198 7.55186C14.327 9.29233 15.6807 10.1626 15.9351 11.3742C16.0216 11.7865 16.0216 12.2135 15.9351 12.6258Z"
+                                    stroke="#141B34" stroke-width="1.5" stroke-linejoin="round" />
+                                <path d="M20 5V19" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" />
+                            </svg>
+
+
+                        </div>
+                        <div class="timevolume">
+                            <div class="songtime">
+
+                            </div>
+                            <div class="volume">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M14 14.8135V9.18646C14 6.04126 14 4.46866 13.0747 4.0773C12.1494 3.68593 11.0603 4.79793 8.88232 7.02192C7.75439 8.17365 7.11085 8.42869 5.50604 8.42869C4.10257 8.42869 3.40084 8.42869 2.89675 8.77262C1.85035 9.48655 2.00852 10.882 2.00852 12C2.00852 13.118 1.85035 14.5134 2.89675 15.2274C3.40084 15.5713 4.10257 15.5713 5.50604 15.5713C7.11085 15.5713 7.75439 15.8264 8.88232 16.9781C11.0603 19.2021 12.1494 20.3141 13.0747 19.9227C14 19.5313 14 17.9587 14 14.8135Z"
+                                        stroke="#141B34" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M17 9C17.6254 9.81968 18 10.8634 18 12C18 13.1366 17.6254 14.1803 17 15"
+                                        stroke="#141B34" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M20 7C21.2508 8.36613 22 10.1057 22 12C22 13.8943 21.2508 15.6339 20 17"
+                                        stroke="#141B34" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                                <div class="range">
+                                    <input type="range" name="volume" id="">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
